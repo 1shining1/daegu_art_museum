@@ -1,0 +1,132 @@
+/* HEADER / NAVIGATION / FOOTER - style.css */
+
+/* WHATS ON */
+#whatsOn > div {
+  width: 650px;
+  height: 520px;
+  display: inline;
+  float: left;
+  cursor: pointer;
+}
+
+#whatsOn > div:hover {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
+
+#mnp {
+  background: url("../images/mnp.jpg") no-repeat;
+}
+
+#sat_lec {
+  background: url("../images/sat_lec.jpg") no-repeat;
+}
+
+/* NOTICE */
+#notice {
+  clear: both;
+  padding-top: 10px;
+}
+
+#notice > div {
+  display: inline;
+  float: left;
+  cursor: pointer;
+}
+
+#notice .box #box1 > div {
+  float: left;
+}
+
+#app,
+#cocoa,
+#guide {
+  width: 400px;
+  height: 175px;
+}
+#news,
+#notice_s {
+  width: 500px;
+  height: 175px;
+}
+#location,
+#reservation {
+  width: 200px;
+  height: 175px;
+  display: inline;
+  float: left;
+}
+
+#app {
+  background: url("../images/app.jpg") no-repeat;
+}
+#cocoa {
+  background: url("../images/cocoa.jpg") no-repeat;
+}
+#news {
+  background: url("../images/news.jpg") no-repeat;
+  border-bottom: #c0c0c0 solid 1px;
+}
+#notice_s {
+  background: url("../images/notice.jpg") no-repeat;
+}
+#guide {
+  background: url("../images/guide.jpg") no-repeat;
+}
+#location {
+  background: url("../images/location.jpg") no-repeat;
+}
+#reservation {
+  background: url("../images/reservation.jpg") no-repeat;
+}
+
+/* E-NEWSLETTER */
+
+#enl {
+  clear: both;
+  background-color: #eee;
+  width: 1300px;
+  height: 160px;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+#lb01 {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background: #585858;
+  text-align: center;
+  line-height: 40px;
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  margin: 30px 300px 15px;
+}
+
+input[type="text"] {
+  width: 700px;
+  margin-left: 300px;
+  padding: 10px;
+  border: 1px solid #808080;
+  color: #808080;
+  background-color: #eee;
+}
+
+input[type="submit"] {
+  background-color: #585858;
+  color: #eee;
+  width: 150px;
+  height: 37px;
+  border: none;
+  cursor: pointer;
+  line-height: 35px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+}

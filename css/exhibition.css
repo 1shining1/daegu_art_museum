@@ -1,0 +1,28 @@
+/* HEADER / NAVIGATION / FOOTER - style.css */
+
+/* #current_exhibition {
+  padding-bottom: 30px;
+} */
+.current_info > div {
+  display: inline;
+  float: left;
+}
+
+.current {
+  width: 350px;
+  height: 700px;
+}
+
+.current img {
+  margin-bottom: 30px;
+}
+.currentInfo_02 {
+  margin: 0 125px;
+}
+
+#current_exhibition .cur_bnt {
+  background-color: #333;
+  color: #eee;
+  margin: 20px;
+  padding: 10px 20px;
+}
